@@ -13,7 +13,8 @@ end
 gem 'jquery-rails'
 
 group :test, :development do
-  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'capybara'
   gem 'ruby-debug19', :require => 'ruby-debug'
   gem 'capistrano'
 end
